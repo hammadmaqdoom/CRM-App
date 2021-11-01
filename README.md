@@ -1,11 +1,10 @@
-# CRM-App
+# CRM App
 # Overview
 Built a Client Relationship Management System in Python using Django and Bootstrap Library for course project 'CS355: Database Systems' at Habib University.
 
 # Tasks
 Some features of the app are as follows:
 -  
-
 
 ## How to Run
 - Use IDE of your choice.
@@ -16,11 +15,19 @@ Some features of the app are as follows:
 sudo pip3 install virtualenv 
 ```
 ### Now create a virtual environment 
-
-    virtualenv venv 
-
+```
+virtualenv venv 
+```
 >you can use any name insted of **venv**
 
+### Active your virtual environment:    
+```
+source venv/bin/activate
+```
+### Run the project
+```
+$ python manage.py runserver
+```
 
 # Credits
 This project was jointly developed by 
