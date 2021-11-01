@@ -20,4 +20,6 @@ from django.urls.conf import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('crm.urls')),
+    # path('userlogin/', include('crm.urls')),
+    # path('usersignup/', include('crm.urls'))
 ]
