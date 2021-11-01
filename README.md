@@ -4,7 +4,7 @@ Built a Client Relationship Management System in Python using Django and Bootstr
 
 # Tasks
 Some features of the app are as follows:
--  
+-Enterprise
 
 ## How to Run
 - Use IDE of your choice.
