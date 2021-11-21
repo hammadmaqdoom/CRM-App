@@ -7,8 +7,8 @@ from django.db.models.base import Model
 class Company(models.Model):
     companyID = models.IntegerField(primary_key=True)
     companyName =models.CharField(max_length=64)
-    companyEmail = models.EmailField( max_length=254)
-    companyPhoneNumber = models.PhoneNumberField()
+    companyEmail = models.EmailField(max_length=254)
+    companyPhoneNumber = models.IntegerField()
     is_client = models.BooleanField(default=True)
 
 class Users(models.Model):
@@ -48,7 +48,7 @@ class CompanyUsers(models.Model):
 
 class ProductsAndServices(models.Model):
     itemID = models.IntegerField(primary_key=True)
-    isProduct = models.BooleanField(primary_key=True)
+    isProduct = models.BooleanField()
     itemDescription = models.CharField(max_length=500)
     rate = models.IntegerField()
 
